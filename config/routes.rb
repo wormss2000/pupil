@@ -1,4 +1,10 @@
 Pupil::Application.routes.draw do
+  resources :streets
+
+  resources :areas
+
+  resources :regions
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
